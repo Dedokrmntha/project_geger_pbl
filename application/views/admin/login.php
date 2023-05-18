@@ -3,44 +3,56 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="mb-4">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
-                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">HALAMAN</h6>
+                        <h1 class="text-white"><span class="text-primary">LOGIN#</span>ADMIN</h1>
                     </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <p class="text-white"></p>
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Masukkan Username Anda!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Masukkan Password Anda!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Klik Login Untuk Masuk Kehalaman Website!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Klik Register Jika Belum Mempunyai Akun!</li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-primary text-center p-4">
-                            <h1 class="text-white m-0">Sign Up Now</h1>
+                            <h1 class="text-white m-0">Login</h1>
                         </div>
                         <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
-                                </div>
-                            </form>
+                        <?php 
+				    if($this->session->flashdata('error') !='')
+				{
+					echo '<div class="alert alert-danger" role="alert">';
+					echo $this->session->flashdata('error');
+					echo '</div>';
+				}
+				?>
+ 
+				<?php 
+				if($this->session->flashdata('success_register') !='')
+				{
+					echo '<div class="alert alert-info" role="alert">';
+					echo $this->session->flashdata('success_register');
+					echo '</div>';
+				}
+				?>
+                    <form method="post" action="<?php echo base_url(); ?>Login/proses">
+					<div class="form-group">
+					<label for="username">Username</label>
+					<input type="text" class="form-control" name="username" id="username" placeholder="Enter Username">
+					</div>
+					<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" class="form-control" name="password" id="password" placeholder="Password">
+					</div>
+					<button type="submit" class="btn btn-primary">Login</button>
+				        </form>
                         </div>
+                        <div class="text-center">
+								Belum Punya Akun? <a href="<?= base_url('Register/index') ?>" class="text-dark">Buat Akun</a>
+							</div>
+                        </body>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="<?=base_url('index/index')?>" class="nav-item nav-link  active ">Home</a>
+                        <a href="<?=base_url('index/index')?>" class="nav-item nav-link ">Home</a>
                         <a href="<?=base_url('index/about')?>" class="nav-item nav-link">About</a>
                         <a href="<?=base_url('index/dayatarik')?>" class="nav-item nav-link">Daya Tarik</a>
                         <a href="package.html" class="nav-item nav-link">Tour Packages</a>
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="<?=base_url('Login/index')?>" class="nav-item nav-link">Login Admin</a>
+                        <a href="<?=base_url('Login/index')?>" class="nav-item nav-link active">Login Admin</a>
                     </div>
                 </div>
             </nav>

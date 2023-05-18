@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="<?=base_url('Admin2/login')?>" class="nav-item nav-link">Login Admin</a>
+                        <a href="<?=base_url('Login/index')?>" class="nav-item nav-link">Login Admin</a>
                     </div>
                 </div>
             </nav>
