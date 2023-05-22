@@ -14,7 +14,10 @@ class Home extends CI_Controller
 
   public function index()
   {
-    $this->load->view('vw_home');
+    $this->load->view('vw_user/header');
+    $this->load->view('vw_user/navbar');
+    $this->load->view('vw_user/body');
+    $this->load->view('vw_user/footer');
   }
 }
    
