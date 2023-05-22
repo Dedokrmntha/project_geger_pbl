@@ -10,8 +10,7 @@
 				Home Page
 			</div>
 			<div class="card-body">
-	        <center><h1>Selamat Datang <?php echo $this->session->userdata('nama'); ?></h1></center>
-				<hr/>
+	        <center><h1>Selamat Datang <?php echo $this->session->userdata('nama'); ?></h1></center><hr/>
 				<a href="<?php echo base_url(); ?>Login/logout" class="btn btn-primary btn-lg btn-block">Logout</a>
 			</div>
 		</div>
