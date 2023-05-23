@@ -30,7 +30,7 @@ class Admin2 extends CI_Controller
   {
     $this->load->view('layout/header');
     $this->load->view('layout/navbar');
-		$this->load->view('admin/login');
+		// $this->load->view('admin/login');
 		$this->load->view('layout/footer');
 		
   }
