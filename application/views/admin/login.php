@@ -48,10 +48,7 @@
 					</div>
 					<button type="submit" class="btn btn-primary">Login</button>
 				        </form>
-                        </div>
-                        <div class="text-center">
-								Belum Punya Akun? <a href="<?= base_url('Register/index') ?>" class="text-dark">Buat Akun</a>
-							</div>
+                       
                         </body>
                     </div>
                 </div>
