@@ -77,20 +77,20 @@
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="<?= base_url('template/img/pantai.jpg')?>" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="<?= base_url('template/img/geger2.jpg')?>" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h6>
+                        <h1 class="mb-3">Tentang Pantai Geger</h1>
+                        <p>Pantai Geger terletak di Desa Adat Peminge, Kecamatan Kuta Selatan, Kabupaten Badung, Bali. Pantai ini terletak sekitar 14 kilometer dari Bandara Internasional Ngurah Rai dan dapat dijangkau dengan mobil atau taksi. Pantai Geger memiliki luas sekitar 100 meter dan terkenal dengan pemandangan matahari terbenam yang memukau. </p>
                         <div class="row mb-4">
                             <div class="col-6">
-                                <img class="img-fluid" src="<?=base_url('template/img/about-1.jpg')?>" alt="">
+                                <img class="img-fluid" src="<?=base_url('template/img/destination-4.jpg')?>" alt="">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="<?=base_url('template/img/about-2.jpg')?>" alt="">
+                                <img class="img-fluid" src="<?=base_url('template/img/package-3.jpg')?>" alt="">
                             </div>
                         </div>
                         <a href="" class="btn btn-primary mt-1">Book Now</a>

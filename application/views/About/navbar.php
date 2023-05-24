@@ -12,7 +12,7 @@
                     <div class="navbar-nav ml-auto py-0">
                         <a href="<?=base_url('index/index')?>" class="nav-item nav-link ">Home</a>
                         <a href="<?=base_url('index/about')?>" class="nav-item nav-link active">About</a>
-                        <a href="<?=base_url('index/dayatarik')?>" class="nav-item nav-link">Services</a>
+                        <a href="<?=base_url('index/dayatarik')?>" class="nav-item nav-link">Daya Tarik</a>
                         <a href="package.html" class="nav-item nav-link">Tour Packages</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
